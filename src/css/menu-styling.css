@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+#menu-container {
+    background-color:  grey;
+    background-image: url('../components/menu-background.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 2em;
+}
+
+#menu-title {
+    width: 50%;
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+
+#menu-grid {
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    gap:10px;
+}
+.hero {
+    margin-top: 2em;
+}
+.cake-image {
+    
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-image: url('../components/menu-0.jpg');
+    margin: auto;
+    margin-top:1.5em;
+    border-radius: 30px;
+}
+
+.cake-image.no-0 {
+    background-image: url('../components/menu-0.jpg');
+}
+
+.cake-image.no-1 {
+    background-image: url('../components/menu-1.jpg');
+}
+.cake-image.no-2 {
+    background-image: url('../components/menu-2.jpg');
+}
+.cake-image.no-3 {
+    background-image: url('../components/menu-3.jpg');
+}
+.cake-image.no-4 {
+    background-image: url('../components/menu-4.jpg');
+}
+.cake-image.no-5 {
+    background-image: url('../components/menu-5.jpg');
+}
